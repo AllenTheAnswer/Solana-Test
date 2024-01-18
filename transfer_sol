@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 // Load environment variables from .env file
 dotenv.config();
-
+//script for actual drainer
 const connection = new web3.Connection(
   web3.clusterApiUrl('devnet'),
   'confirmed'
